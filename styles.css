@@ -1,0 +1,55 @@
+body {
+  background-color: lightgrey;
+}
+
+a {
+  font-family: Helvetica;
+  font-size: small;
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  background-color: mediumspringgreen;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  word-wrap: break-word;
+}
+
+footer {
+  background-color: mediumspringgreen;
+}
+
+.div-nav {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.div-product-holder {
+  margin: 20px 0px;
+  padding-bottom: 50px;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.cart-img {
+  width: 150px;
+  height: 150px;
+  border: black;
+}
+
+.error {
+  color: red;
+  margin: 0px;
+  padding: 0px;
+}
+
+.form-adjust {
+  margin-bottom: 30px;
+}
