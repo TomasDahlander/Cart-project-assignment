@@ -17,6 +17,7 @@ p {
   margin: 0px;
   padding: 0px;
   word-wrap: break-word;
+  padding-right: 100px;
 }
 
 footer {
