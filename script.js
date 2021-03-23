@@ -202,14 +202,14 @@ $(document).ready(function(){
 
         let ok = true;
 
-        if(name.length < 1){
+        if(name.length < 1){ // Kontrollera att namn är minst 1 tecken långt
             $("#nameError").html("Name must contain atleast 1 character");
             ok = false;
         }else{
             $("#nameError").html("");
         }
 
-        if(address.length < 10){
+        if(address.length < 10){ // Kontrollera att adress är minst 10 tecken långt
             $("#addressError").html("The address must be atleast 10 character long");
             ok = false;
         }else{
@@ -246,10 +246,6 @@ $(document).ready(function(){
         }
 
         if(ok){
-        $("#nameInput").val("");
-        $("#addressInput").val("");
-        $("#teleInput").val("");
-        $("#emailInput").val("");
         localStorage.clear();
         alert("Thank you for your order")
         location.reload();
