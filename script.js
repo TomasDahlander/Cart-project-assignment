@@ -22,7 +22,7 @@ $(document).ready(function(){
     // Laddar produkter från API
     function loadProducts() {
         const xhr = new XMLHttpRequest();
-        xhr.open("GET", "http://webacademy.se/fakestore/")
+        xhr.open("GET", "https://webacademy.se/fakestore/")
         xhr.send();
 
         xhr.onreadystatechange = function() {
