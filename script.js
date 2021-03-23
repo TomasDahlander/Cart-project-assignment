@@ -195,6 +195,12 @@ $(document).ready(function(){
 
     // Funktion för att kontrollera input i beställningsformuläret
     $("#submitButton").click(function(){
+
+        if(savedImg.length === 0) {
+            alert("You don't have any products in your cart.")
+            return;
+        }
+
         const name = $("#nameInput").val();
         const address = $("#addressInput").val();
         const tele = $("#teleInput").val();
